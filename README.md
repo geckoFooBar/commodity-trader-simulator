@@ -35,5 +35,5 @@ A high-performance, multithreaded desktop trading simulator built with Java and 
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YourUsername/Global-Commodity-Trader.git
+git clone https://github.com/geckoFooBar/commodity-trader-simulator.git
 cd Global-Commodity-Trader
