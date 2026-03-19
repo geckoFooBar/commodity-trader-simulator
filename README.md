@@ -6,14 +6,6 @@
 
 A high-performance, multithreaded desktop trading simulator built with Java and MySQL. This application mimics a real-world financial terminal, featuring a live market engine, dynamic news events, and real-time portfolio tracking.
 
-## 📸 Previews
-
-> **Note:** *Update these placeholder links with actual screenshots of your application from an `assets/` folder in your repository.*
-
-| Live Trading Dashboard | Complete Transaction Ledger |
-| :---: | :---: |
-| ![Dashboard](src/main/resourcesassets/placeholder-link-to-dashboard-screenshot.png) | ![Ledger](placeholder-link-to-ledger-screenshot.png) |
-
 ## ✨ Key Features
 
 * **Real-Time Market Engine:** A background simulator thread runs concurrently with the UI, recalculating market prices via JDBC batch processing every few seconds.
