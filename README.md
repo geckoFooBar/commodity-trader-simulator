@@ -38,7 +38,7 @@ A high-performance, multithreaded desktop trading simulator built with Java and 
 git clone https://github.com/geckoFooBar/commodity-trader-simulator.git
 cd Global-Commodity-Trader
 ```
-## Database Setup and Schema
+### 2. Database Setup and Schema
 ```
 CREATE DATABASE IF NOT EXISTS trader_game;
 USE trader_game;
@@ -105,8 +105,8 @@ INSERT INTO Market_Events (headline, target_commodity_id, price_multiplier) VALU
 INSERT INTO Player (username, password, cash_balance) VALUES ('testuser', 'password123', 50000.00);
 ```
 
-## Configure Database Credentials
-###Navigate to DatabaseConnection.java (or your DAO configuration class) in the source code. Update the JDBC URL, username, and password to match your local MySQL configuration:
+## 3. Configure Database Credentials
+### Navigate to DatabaseConnection.java (or your DAO configuration class) in the source code. Update the JDBC URL, username, and password to match your local MySQL configuration:
 
 ```
 public class DatabaseConnection {
@@ -116,7 +116,7 @@ public class DatabaseConnection {
 }
 ```
 
-## Build and Run
+## 4. Build and Run
 + Through IDE: Open the project in IntelliJ IDEA/Eclipse, and run the Main.java file. Personally I would use IntelliJ.
 + Through Executable: If you have compiled the project using a tool like Launch4j, simply double-click the GlobalCommodityTrader.exe file.
 + Log In: Use the default credentials created in the SQL script (testuser / password123) to access the dashboard.
