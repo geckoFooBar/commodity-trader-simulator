@@ -20,7 +20,8 @@ A high-performance, multithreaded desktop trading simulator built with Java and 
 * **Language:** Java (JDK 11+)
 * **GUI Framework:** Java Swing / AWT
 * **Database:** MySQL
-* **Libraries:** * `mysql-connector-java` (JDBC)
+* **Libraries:**
+  * `mysql-connector-java` (JDBC)
   * `jfreechart` (Data Visualization)
 
 ---
